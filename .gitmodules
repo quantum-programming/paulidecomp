@@ -1,3 +1,4 @@
 [submodule "src/DensePauliDecomposer"]
 	path = src/DensePauliDecomposer
 	url = https://github.com/TysonRayJones/DensePauliDecomposer.git
+	ignore = untracked
