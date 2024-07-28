@@ -1,9 +1,11 @@
 # paulidecomp
 
+<img src="benchmark.png" width="50%">
+
 This repository is a Python module of Pauli decomposition algorithms [1-4] implemented with C++.
 
 Our C++ implementation is mostly based on [the Python implementation by Jones](https://github.com/TysonRayJones/DensePauliDecomposer/tree/revision),
-except for the iterative algorithm by Hantzko et al. [1] since it is not included in the Python implementation.
+except for the iterative algorithm by Hantzko et al. [2] since it is not included in the Python implementation.
 
 ## Setup
 
@@ -33,16 +35,16 @@ python3 draw.py output_file.txt
 
 You can check the memory consumption of the algorithms by `python memory.py [# of qubits]`.
 
-
 ## References
 
-[1] Lukas Hantzko, Lennart Binkowski, and Sabhyata Gupta. “Tensorized Pauli decomposition algorithm” (2023) arXiv:2310.13421.
+[1] Hiroki Hamaguchi, Kou Hamada, Nobuyuki Yoshioka. “Handbook for Efficiently Quantifying Robustness of Magic” (2023) arXiv:2311.01362.
 
-[2] Tyson Jones. “Decomposing dense matrices into dense Pauli tensors” (2024). arxiv:2401.16378.
+[2] Lukas Hantzko, Lennart Binkowski, and Sabhyata Gupta. “Tensorized Pauli decomposition algorithm” (2023) arXiv:2310.13421.
 
-[3] Sebastián Vidal Romero and Juan Santos-Suárez. “PauliComposer: Compute tensor products of Pauli matrices efficiently”. Quantum Information Processing 22, 449 (2023).
+[3] Tyson Jones. “Decomposing dense matrices into dense Pauli tensors” (2024). arxiv:2401.16378.
 
-[4] Hiroki Hamaguchi, Kou Hamada, Nobuyuki Yoshioka. “Handbook for Efficiently Quantifying Robustness of Magic” (2023) arXiv:2311.01362.
+[4] Sebastián Vidal Romero and Juan Santos-Suárez. “PauliComposer: Compute tensor products of Pauli matrices efficiently”. Quantum Information Processing 22, 449 (2023).
+
 
 ## License
 
