@@ -7,13 +7,31 @@ except for the iterative algorithm by Hantzko et al. [1] since it is not include
 
 ## Setup
 
-The C++ library "Boost" needs to be installed.
+The C++ library `Boost` needs to be installed.
+
+The `mprof` command is also required to run the memory benchmark.
 
 It is recommended to prepare and use a new virtual Python environment.
 
 You need to run `pip3 install -r requirements.txt` to set up the module. You may need to change the version of the Boost.Python and Boost.Numpy in `setup.py`.
 
+## Test
+
 You can test the module with `python3 -m pytest tests`.
+
+## Benchmark
+
+The `benchmarks` directory contains a set of files for benchmarking the algorithms.
+
+You can benchmark the runtime of the algorithms by the following commands.
+You can terminate the second command anytime.
+```bash
+cd benchmarks
+python3 measure.py output_file.txt
+python3 draw.py output_file.txt
+```
+
+You can check the memory consumption of the algorithms by `python memory.py [# of qubits]`.
 
 
 ## References

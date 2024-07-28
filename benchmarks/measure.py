@@ -14,7 +14,7 @@ from paulidecomp import hantzko as hantzkocpp
 from paulidecomp import jones as jonescpp
 from paulidecomp import romero as romerocpp
 
-# usage: python measure.py result.txt
+# usage: python3 measure.py result.txt
 
 assert len(sys.argv[1:]) == 1, "Must specify filename as command-line arg."
 
