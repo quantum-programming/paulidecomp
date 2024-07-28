@@ -1,6 +1,8 @@
 # paulidecomp
 
-<img src="benchmark.png" width="50%">
+## Overview
+
+<img src="benchmark.png" width="75%">
 
 This repository is a Python module of Pauli decomposition algorithms [1-4] implemented with C++.
 
